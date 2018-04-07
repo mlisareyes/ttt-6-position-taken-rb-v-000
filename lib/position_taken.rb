@@ -2,4 +2,5 @@
 def position_taken? (board, index)
   position = board[index]
   return ! (position == " " || position == " " || ! position)
+  false
 end
